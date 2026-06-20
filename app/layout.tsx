@@ -1,0 +1,42 @@
+import type { Metadata } from "next";
+import { Fraunces, Inter } from "next/font/google";
+import "./globals.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import TelegramButton from "@/components/TelegramButton";
+
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  style: ["normal", "italic"],
+  variable: "--font-fraunces",
+  display: "swap",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+export const metadata: Metadata = {
+  title: "Summer Real Estate — Premium Apartment Developments in Addis Ababa",
+  description:
+    "Diaspora-led residential developments in Addis Ababa. Summer Bulgaria (Behind AU) and Summer Abtes (British Embassy) — own your home, away from home.",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" className={`${fraunces.variable} ${inter.variable}`}>
+      <body className="font-body bg-ink text-ivory antialiased">
+        <Header />
+        <main>{children}</main>
+        <Footer />
+        <TelegramButton />
+      </body>
+    </html>
+  );
+}
