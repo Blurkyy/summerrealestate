@@ -132,6 +132,6 @@ export const contactInfo = {
   phone: "+251 98 178 9498",
   phoneHref: "tel:+251 98 178 9498",
   telegramHref: "https://t.me/+251981789498",
-  address: ["Kazadis Building", "Kazanchis", "Addis Ababa, Ethiopia"],
+  address: ["Urael Area", "Addis Ababa, Ethiopia"],
   hours: "Mon–Sun, 9am–6pm",
 };
