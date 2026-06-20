@@ -87,7 +87,7 @@ export const sites: ProjectSite[] = [
       "Rooftop terrace and gardens",
     ],
     heroImagePlaceholder: "Summer Abtes — Hero Image",
-    heroMedia: { type: "video", src: "/Images/Ec.mp4" },
+    heroMedia: { type: "video", src: "/images/Ec.mp4" },
     galleryMedia: [
       { type: "image", src: "/images/Ea.jpg" },
       { type: "image", src: "/images/Eb.jpg" },
