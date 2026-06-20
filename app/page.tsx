@@ -83,7 +83,7 @@ export default function HomePage() {
           <div className="fade-up grid grid-cols-2 gap-4 lg:col-span-5">
             <div className="relative min-h-[300px] w-full rounded-sm overflow-hidden">
               <Image
-                src="/Images/B1.jpg"
+                src="/images/B1.jpg"
                 alt="Summer Bulgaria site 1"
                 fill
                 className="object-cover"
@@ -91,7 +91,7 @@ export default function HomePage() {
             </div>
             <div className="relative min-h-[300px] w-full rounded-sm overflow-hidden">
               <Image
-                src="/Images/B2.jpg"
+                src="/images/B2.jpg"
                 alt="Summer Bulgaria site 2"
                 fill
                 className="object-cover"
