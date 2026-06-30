@@ -1,7 +1,7 @@
 import { Check } from "lucide-react";
 import PlaceholderImage from "@/components/PlaceholderImage";
 import MediaDisplay from "@/components/MediaDisplay";
-import SiteMap from "@/components/SiteMap";
+import SiteMap from "@/components/Sitemap";
 import DeliveredSites from "@/components/DeliveredSites";
 import { sites } from "@/lib/sites-data";
 
