@@ -26,6 +26,16 @@ export const metadata: Metadata = {
   description:
     "Diaspora-led residential developments in Addis Ababa. Summer Bulgaria (Behind AU) and Summer Abtes (British Embassy) — own your home, away from home.",
 
+  openGraph: {
+    title: "Summer Real Estate",
+    description:
+      "Diaspora-led residential developments in Addis Ababa. Summer Bulgaria (Behind AU) and Summer Abtes (British Embassy) — own your home, away from home.",
+    url: "https://www.begapropfind.com",
+    siteName: "Summer Real Estate",
+    locale: "en_US",
+    type: "website",
+  },
+
   alternates: {
     canonical: "/",
   },
@@ -38,6 +48,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${fraunces.variable} ${inter.variable}`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Summer Real Estate",
+              url: "https://www.begapropfind.com/",
+            }),
+          }}
+        />
+      </head>
       <body className="font-body bg-ink text-ivory antialiased">
         <Header />
         <main>{children}</main>
