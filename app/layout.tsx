@@ -19,11 +19,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.begapropfind.com"),
+
   title: "Summer Real Estate — Premium Apartment Developments in Addis Ababa",
+
   description:
     "Diaspora-led residential developments in Addis Ababa. Summer Bulgaria (Behind AU) and Summer Abtes (British Embassy) — own your home, away from home.",
+
   alternates: {
-    canonical: "https://begapropfind.com",
+    canonical: "/",
   },
 };
 
