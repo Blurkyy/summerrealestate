@@ -154,7 +154,7 @@ export default function ProjectsPage() {
 
                 <div className="mt-10 flex flex-wrap gap-4">
                   <a
-                    href="https://wa.me/251974747450"
+                    href="https://t.me/Summer_3355"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-sand px-7 py-3.5 font-body text-sm uppercase tracking-widest2 text-ink transition-colors hover:bg-ivory"

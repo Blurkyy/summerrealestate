@@ -148,44 +148,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Leadership */}
-      <section className="border-b border-hairline">
-        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10">
-          <span className="font-body text-xs uppercase tracking-widest2 text-sand">
-            The Team
-          </span>
-          <h2 className="mt-4 font-display text-3xl text-ivory sm:text-4xl">
-            Leadership Team
-          </h2>
-          <p className="mt-4 max-w-xl font-body text-[15px] leading-relaxed text-muted">
-            Decades of combined experience in luxury residential development
-            and real estate innovation.
-          </p>
-
-          <div className="mt-12 grid grid-cols-1 gap-10 sm:grid-cols-3">
-            {team.map((member) => (
-              <div key={member.name}>
-                <div className="flex aspect-square w-full items-center justify-center rounded-sm border border-hairline bg-raised">
-                  <Users2
-                    className="h-8 w-8 text-sand-dim"
-                    strokeWidth={1.25}
-                  />
-                </div>
-                <h3 className="mt-5 font-display text-lg text-ivory">
-                  {member.name}
-                </h3>
-                <p className="font-body text-xs uppercase tracking-widest2 text-sand">
-                  {member.role}
-                </p>
-                <p className="mt-2 font-body text-sm leading-relaxed text-muted">
-                  {member.bio}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Stats */}
       <section className="border-b border-hairline bg-surface">
         <div className="mx-auto max-w-7xl px-6 py-16 lg:px-10">
